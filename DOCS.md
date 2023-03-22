@@ -21,7 +21,7 @@ Reminder in case BOOTSEL is double tapped
     - USB-C cable to power the RP4
     - Ethernet Cable
 1. Software
-    - Raspbian OS Imager
+    - ![Raspbian OS Imager](https://www.raspberrypi.com/software/)
     - VNC viewer (RealVNC or your preferred viewer)
     - Terminal
 1. Setup
@@ -33,10 +33,21 @@ Reminder in case BOOTSEL is double tapped
         - In settings, enable SSH and set a username/password (write this down somewhere secure)
         - Flashing the OS will take a few minutes
 1. Logging in
-    - Connect the SD/USB into the RP4, then the ethernet and power cables (troubleshoot LED signals here)
+    - Connect the SD/USB into the RP4, then the ethernet and power cables (troubleshoot ![LED signals](https://raspberrytips.com/green-and-red-light-on-raspberry-pi/))
     - Open terminal and execute ```ssh <username>@raspberrypi.local``` and enter password (ping raspberrypi.local to troubleshoot)
     - Execute ```raspi-config``` and enable VNC
     - Open VNC software and connect to ```raspberrypi.local```
 
 ## PiCamera
+- Reference ![tutorial](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/4)
+- enable legacy camera
+  - execute ```sudo raspi-config``` either in RP4 terminal or in ssh
+  - navigate to interfacing options, then enable camera
+  - this will require a reboot
+
 ## Stepper Motor
+## Troubleshooting
+### VNC cannot display desktop, related to PiCamera
+- ![Stackexchange](https://raspberrypi.stackexchange.com/questions/136649/vnc-not-able-to-show-desktop-when-legacy-camera-is-enabled)
+- plug USB/SD card in computer
+- uncomment ```hdmi_force_hotplug=1``` in ```/boot/config.txt```
