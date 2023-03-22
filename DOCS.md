@@ -5,6 +5,7 @@ We want this repository to contained backed up, version tracked, accessible code
 
 ## Guidelines
 1. ```code.py``` should only import other modules and define a routine for the device used. Do not define functions or otherwise, instead use other files that can be imported.
+1. Indicate if your code is for raspberry pi pico, RP4 or arduino nano in the filename.
 1. Comment your code, should say 'why' not 'what'.
 1. Report issues in the issues tab as they arise. This to keep a papertrail of bugs and how we solve them.
 
