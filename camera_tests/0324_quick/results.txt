@@ -1,0 +1,38 @@
+-- March 24th
+-- Quick run using Arduino box
+-- image folder is "0324_quick"
+
+2cm results
+PNG (1024, 768) RGBA
+786432
+Focus is 4.553159503000036
+
+4cm results
+PNG (1024, 768) RGBA
+786432
+Focus is 6.315286943825638
+
+6cm results
+PNG (1024, 768) RGBA
+786432
+Focus is 9.598575170398712
+
+8cm results
+PNG (1024, 768) RGBA
+786432
+Focus is 9.099265373491555
+
+10cm results
+PNG (1024, 768) RGBA
+786432
+Focus is 10.448634495315089
+
+12cm results
+PNG (1024, 768) RGBA
+786432
+Focus is 10.804841647528177
+
+14cm results
+PNG (1024, 768) RGBA
+786432
+Focus is 17.942439507861504

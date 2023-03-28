@@ -1,0 +1,29 @@
+-- March 24th
+-- Testing using Darrian's stats cheat sheet
+results 30cm
+PNG (1024, 768) RGBA
+786432
+Focus is 6.4697151772532635
+
+results 20cm
+PNG (1024, 768) RGBA
+786432
+Focus is 3.9345781251233847
+
+results 18cm
+
+results 16cm
+
+results 14cm
+
+results 12cm
+
+results 10cm
+
+results 8cm
+
+results 6cm
+
+results 4cm
+
+results 2cm
